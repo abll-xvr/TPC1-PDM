@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6695E"
+        android:text="Menu Principal"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Que funcionalidade pretende?"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btConversor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversor"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#F6695E"
+        tools:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btCalculad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#F6695E"
+        tools:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6695E"
+        android:text="Calculadora"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:textColor="#FFFFFF"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblOpcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione a operação que deseja efectuar:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_width="162dp"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rdAdicao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adição"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/rdSubtracao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subtração"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioGroup
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rdOpRomana"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Operação Romana"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdOpDecimal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Operação Decimal"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </RadioGroup>
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira o primeiro valor:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira o segundo valor:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="#F6695E"
+        tools:textSize="18sp"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btIrTelaInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir para tela inicial"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#F6695E" />
+
+</LinearLayout>
